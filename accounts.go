@@ -1,9 +1,9 @@
 package monzo
 
 import (
-	"time"
 	"encoding/json"
 	"log"
+	"time"
 )
 
 type Owners struct {

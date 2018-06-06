@@ -1,10 +1,10 @@
 package monzo
 
 import (
-	"strings"
 	"encoding/json"
 	"log"
 	"net/url"
+	"strings"
 )
 
 type CounterParty struct {

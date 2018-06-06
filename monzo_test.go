@@ -1,9 +1,9 @@
 package monzo_test
 
 import (
-	"testing"
 	"github.com/Lavoaster/monzo-go"
 	assert "github.com/stretchr/testify/require"
+	"testing"
 )
 
 func TestClient_NewRequest(t *testing.T) {

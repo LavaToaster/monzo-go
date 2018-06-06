@@ -1,21 +1,21 @@
 package monzo
 
 import (
-	"net/http"
 	"io"
 	"log"
+	"net/http"
 )
 
 const ApiUrl = "https://api.monzo.com"
 
 type Client struct {
-	http http.Client
+	http        http.Client
 	accessToken string
 }
 
 func New(accessToken string) *Client {
 	return &Client{
-		http: http.Client{},
+		http:        http.Client{},
 		accessToken: accessToken,
 	}
 }

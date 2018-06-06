@@ -6,9 +6,9 @@ import (
 )
 
 type WhoAmI struct {
-	Authenticated bool `json:"authenticated"`
-	ClientId string `json:"client_id"`
-	UserId string `json:"user_id"`
+	Authenticated bool   `json:"authenticated"`
+	ClientId      string `json:"client_id"`
+	UserId        string `json:"user_id"`
 }
 
 func (c *Client) WhoAmI() WhoAmI {
