@@ -81,6 +81,7 @@ type Transaction struct {
 	Category                   string            `json:"category"`
 	IsLoad                     bool              `json:"is_load"`
 	Settled                    string            `json:"settled"`
+	DeclineReason              string            `json:"decline_reason"`
 	LocalAmount                int64             `json:"local_amount"`
 	LocalCurrency              string            `json:"local_currency"`
 	Updated                    string            `json:"updated"`
